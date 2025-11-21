@@ -1,1 +1,5 @@
 /venv
+/distilbert-emotion-model/
+/__pycache__/
+/distilbert-emotion-model/chekcpoint-*/
+*.pt
