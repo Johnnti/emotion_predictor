@@ -54,7 +54,7 @@ def main():
     #training arguments
     training_args = TrainingArguments(
         output_dir="distilbert-emotion-model",
-        evaluation_strategy="epoch",
+        eval_strategy="epoch",
         save_strategy="epoch",
         learning_rate=2e-5,
         per_device_train_batch_size=16,
